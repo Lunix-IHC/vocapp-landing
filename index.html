@@ -3,169 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VocApp</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Testimonios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #2e2e2e;
+            margin-bottom: 50px;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .testimonial {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            width: 30%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            position: relative;
+        }
+
+        .testimonial:before {
+            content: "“";
+            font-size: 40px;
+            color: #00677F;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        .testimonial p {
+            font-size: 16px;
+            color: #5f5f5f;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .testimonial h3 {
+            font-size: 18px;
+            color: #2e2e2e;
+            margin: 0;
+        }
+
+        .testimonial span {
+            display: block;
+            font-size: 14px;
+            color: #7d7d7d;
+            margin-top: 5px;
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/Logo.png"/>
-            <span>VocApp</span>
+
+<div class="container">
+    <h1>Lo que opinan nuestros usuarios</h1>
+    <div class="testimonials">
+        <!-- Testimonio de María G. -->
+        <div class="testimonial">
+            <p>VocApp me ayudó a descubrir carreras que nunca había considerado. El test fue muy fácil de completar y los resultados me dieron claridad sobre mi futuro profesional. ¡Totalmente recomendado!</p>
+            <h3>María G.</h3>
+            <span>Estudiante de Secundaria</span>
         </div>
-        <div class="navbar">
-            <div>
-                <span>Inicio</span>
-            </div>
-            <div>
-                <span>Demo</span>
-            </div>
-            <div>
-                <span>Precios</span>
-            </div>
-            <div>
-                <span>Acerca de</span>
-            </div>
-            <div>
-                <span>Contáctanos</span>
-            </div>
+
+        <!-- Testimonio de Luis P. -->
+        <div class="testimonial">
+            <p>Siempre estaba indeciso sobre qué estudiar, pero VocApp me brindó una orientación clara. Las sugerencias se alinearon perfectamente con mis intereses, y ahora sé hacia dónde quiero dirigir mi carrera.</p>
+            <h3>Luis P.</h3>
+            <span>Estudiante Universitario</span>
         </div>
-        <div class="social">
-            <div>
-                <img src="images/icons/Facebook.png"/>
-            </div>
-            <div>
-                <img src="images/icons/Instagram.png"/>
-            </div>
+
+        <!-- Testimonio de Ana R. -->
+        <div class="testimonial">
+            <p>Lo mejor de VocApp es lo rápido y preciso que fue el test. Me dio una perspectiva nueva sobre mis habilidades y las profesiones en las que podría destacarme. ¡Una herramienta indispensable!</p>
+            <h3>Ana R.</h3>
+            <span>Profesional en Transición</span>
         </div>
-    </header>
-    
-    <section class="home">
-        <div class="banner">
-            <div class="banner-content">
-                <p class="title">Descubre tu Futuro con<br>VocApp</p>
-                <p class="subtitle">El Test Vocacional que te Guía</p>
-                <p class="body">Explora tus habilidades e intereses a través de un test vocacional personalizado. Obtén recomendaciones precisas y claras sobre las carreras y profesiones que mejor se alinean con tu perfil. Empieza a descubrir tu camino profesional hoy.</p>
-                <div class="download">
-                    <div><img src="images/GooglePlay.png"/></div>
-                    <div><img src="images/AppStore.png"/></div>
-                </div>
-            </div>
-            <div class="banner-image">
-                <img src="images/Banner.png"/>
-            </div>
-        </div>
-    </section>
+    </div>
+</div>
 
-    <section class="benefits">
-        <h1>EXCLUSIVE BENEFITS</h1>
-    </section>
-
-    <section class="testimonials">
-        <h1>TESTIMONIALS</h1>
-    </section>
-
-    <section class="demo">
-        <h1>VIDEO DEMO</h1>
-    </section>
-
-    <section class="prices">
-        <div class="container">
-            <div class="content">
-                <div>
-                    <p class="info">Precios</p>
-                    <p class="title">Nuestras Cómodas<br>Tarifas</p>
-                </div>
-                <p class="body">Empieza a usar VocApp y obtén todo lo que necesitas para descubrir tu vocación, explorar tus opciones profesionales y tomar decisiones informadas sobre tu futuro.</p>
-            </div>
-            <div class="plans">
-                <div class="plan">
-                    <p class="plan-name">STARTER</p>
-                    <p class="plan-price">S/ 19<span> / mes</span></p>
-                    <div class="features">
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Acceso al test vocacional básico</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Resultados personalizados</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Resumen de recomendaciones</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Orientación inicial</p>
-                        </div>
-                    </div>
-                    <div class="button">
-                        <p>Comprar</p>
-                    </div>
-                </div>
-                <div class="plan alt">
-                    <p class="plan-name">PROFESIONAL</p>
-                    <p class="plan-price">S/ 29<span> / mes</span></p>
-                    <div class="features">
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Test vocacional avanzado</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Informe completo y detallado</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Orientación profesional personalizada</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Acceso ilimitado al test</p>
-                        </div>
-                        <div>
-                            <img src="images/icons/Check.png"/>
-                            <p>Caracteristicas del plan básico</p>
-                        </div>
-                    </div>
-                    <div class="button alt">
-                        <p>Probar ahora</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="stories">
-        <h1>SUCCESS STORIES</h1>
-    </section>
-
-    <section class="gallery">
-        <h1>GALLERY</h1>
-    </section>
-
-    <section class="aboutus">
-        <h1>ABOUT US</h1>
-    </section>
-
-    <section class="team">
-        <h1>ABOUT US - TEAM</h1>
-    </section>
-
-    <section class="faq">
-        <h1>FAQ</h1>
-    </section>
-
-    <section class="contact">
-        <h1>CONTACT</h1>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 VocAPP. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
