@@ -267,6 +267,7 @@ section.demo {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align:center;
 }
 
 section.prices {
@@ -406,6 +407,8 @@ section.gallery {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align:center;
+    
 }
 
 section.aboutus {
@@ -450,3 +453,44 @@ footer {
 @media (max-width: 480px) {
     
 }
+
+
+section.gallery .container {
+    margin-top: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: 250px; 
+    grid-gap: 20px; 
+    padding: 100px 0; 
+}
+
+section.gallery .box img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+section.gallery .box:nth-child(1), 
+section.gallery .box:nth-child(4) {
+    grid-column-start: span 1;
+}
+
+
+@media (max-width: 991px) {
+    section.gallery .container {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-auto-rows: 200px; 
+    }
+}
+
+@media (max-width: 768px) {
+    section.gallery .container {
+        grid-template-columns: repeat(1, 1fr); 
+        grid-auto-rows: 150px; 
+    }
+}
+
+
