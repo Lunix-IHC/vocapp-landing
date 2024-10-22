@@ -400,6 +400,64 @@ section.stories {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align:center;
+}
+
+section.stories .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 4.5rem;
+}
+
+section.stories .container .header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+section.stories .container .header .title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 4.5rem;
+    margin: 0;
+}
+
+section.stories .container .cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0rem;
+}
+
+section.stories .container .cases .case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+section.stories .container .cases .case img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+section.stories .container .cases .case .body {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #8492A6;
+}
+
+section.stories .container .cases .case .author {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    color: #01A7C2;
 }
 
 section.gallery {
