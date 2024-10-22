@@ -276,13 +276,71 @@ section.testimonials .container .testimonials .testimony .author {
     color: #212121;
 }
 
+/*Video demo*/
 section.demo {
     background-color: #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align:center;
+    /* padding: 2rem 0; */
 }
+
+section.demo .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+section.demo .header {
+    margin-bottom: 2rem;
+    flex: 1;
+}
+
+section.demo .container .header .info {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #8492A6;
+    margin: 0;
+    
+}
+
+section.demo .container .header .title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 10.5rem;
+    margin: 0;
+}
+
+
+
+section.demo .container .header .video-container {
+    padding: 150px;
+    width: 100%;
+    height: auto; 
+    border-radius: 2rem;
+    overflow: hidden; 
+    position: relative;
+    padding-bottom: 58.88%; 
+    height: 0;
+    max-width: 100%;
+    background: #000;
+    margin-left: -15%; 
+    margin-right: auto; 
+}
+
+section.demo .container .header .video-container iframe {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Prices*/
 
 section.prices {
     background-color: #F8F9FA;
@@ -651,5 +709,4 @@ footer {
         grid-auto-rows: 150px; 
     }
 } */
-
 
