@@ -1,0 +1,549 @@
+@media (max-width: 480px) {
+    .button {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .button p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .button.alt p {
+        color: #006989;
+    }
+}
+
+@media (max-width: 320px) {
+    .button {
+        padding: 0.5rem 1rem;
+    }
+
+    .button p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    header {
+        padding: 1.5rem 3rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header .logo span {
+        font-size: 1.75rem;
+    }
+
+    header .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header .navbar span {
+        font-size: 1rem;
+    }
+
+    header .social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 2rem;
+    }
+
+    header .logo img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    header .logo span {
+        font-size: 1.5rem;
+    }
+
+    header .navbar {
+        gap: 0.5rem;
+    }
+
+    header .navbar span {
+        font-size: 0.875rem;
+    }
+
+    header .social div {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    header .social div img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    header .logo img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    header .logo span {
+        font-size: 1.25rem;
+    }
+
+    header .navbar {
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    header .navbar span {
+        font-size: 0.75rem;
+    }
+
+    header .social div {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    header .social div img {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo {
+        margin-bottom: 1rem;
+    }
+
+    header .logo img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    header .logo span {
+        font-size: 1.5rem;
+    }
+
+    header .navbar {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    header .navbar span {
+        font-size: 1rem;
+    }
+
+    header .social {
+        gap: 0.5rem;
+    }
+
+    header .social div {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    header .social div > img {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    section.home {
+        padding: 4rem 2rem;
+    }
+
+    section.home .banner {
+        gap: 2rem;
+    }
+
+    section.home .banner .banner-content .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    section.home .banner .banner-content .subtitle {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.home .banner .banner-content .body {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    section.home .banner .banner-image img {
+        /* width: 100%; */
+        max-width: 35rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.home .banner {
+        flex-direction: column;
+    }
+
+    section.home .banner .banner-content .title {
+        font-size: 2rem;
+    }
+
+    section.home .banner .banner-content .subtitle {
+        font-size: 1.75rem;
+    }
+
+    section.home .banner .banner-content .body {
+        font-size: 1rem;
+    }
+
+    section.home .banner .banner-image img {
+        max-width: 25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    section.home .banner .banner-content .title {
+        font-size: 1.75rem;
+    }
+
+    section.home .banner .banner-content .subtitle {
+        font-size: 1.5rem;
+    }
+
+    section.home .banner .banner-content .body {
+        font-size: 0.875rem;
+    }
+
+    section.home .banner .banner-image img {
+        max-width: 15rem;
+        /* display: none; */
+    }
+    
+    section.home .banner .banner-content .download {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+
+    section.home .banner .banner-content .download > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    section.home .banner .banner-content .download img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    section.home .banner .banner-content .title {
+        font-size: 1.5rem;
+    }
+
+    section.home .banner .banner-content .subtitle {
+        font-size: 1.25rem;
+    }
+
+    section.home .banner .banner-content .body {
+        font-size: 0.75rem;
+    }
+
+    section.home .banner .banner-image img {
+        max-width: 12rem;
+        /* height: auto; */
+    }
+}
+
+@media (max-width: 768px) {
+    section.testimonials .container {
+        padding: 3rem;
+    }
+
+    section.testimonials .container .header .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    section.testimonials .container .header .info {
+        font-size: 1.5rem;
+    }
+
+    section.testimonials .container .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.testimonials .container .testimonials .testimony {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    section.testimonials .container .header .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    section.testimonials .container .header .info {
+        font-size: 1.25rem;
+    }
+
+    section.testimonials .container .testimonials .testimony {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    section.testimonials .container .header .title {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    section.testimonials .container .header .info {
+        font-size: 1rem;
+    }
+
+    section.testimonials .container .testimonials .testimony {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.prices .container {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    section.prices .container .content {
+        margin-bottom: 2rem;
+    }
+
+    section.prices .container .content .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    section.prices .container .content .info {
+        font-size: 1.5rem;
+    }
+
+    section.prices .container .plans {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section.prices .container .plans .plan {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    section.prices .container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    section.prices .container .content {
+        padding: 0;
+    }
+
+    section.prices .container .content .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    section.prices .container .content .info {
+        font-size: 1.25rem;
+    }
+
+    section.prices .container .content .body {
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    section.prices .container .plans {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    section.prices .container .plans .plan {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    section.prices .container .plans .plan .plan-name {
+        font-size: 1.125rem;
+    }
+
+    section.prices .container .plans .plan .plan-price {
+        font-size: 2rem;
+    }
+
+    section.prices .container .plans .plan .plan-price span {
+        font-size: 1rem;
+    }
+
+    section.prices .container .plans .plan .features > div p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.stories .container .cases {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    section.stories .container .cases .case img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    section.stories .container .header .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    section.stories .container .header .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.stories .container .cases .case .body {
+        font-size: 1rem;
+    }
+
+    section.stories .container .cases .case .author {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 320px) {
+    section.stories .container .header .title {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    section.stories .container .cases .case .body {
+        font-size: 0.875rem;
+    }
+
+    section.stories .container .cases .case .author {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.gallery .container .gallery {
+        grid-template-columns: 2fr;
+    }
+}
+
+@media (max-width: 480px) {
+    section.gallery .container {
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    section.gallery .container .header .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.gallery .container .gallery {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.contact .container {
+        padding: 0;
+    }
+    
+    section.contact .container > div .form > div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    section.contact .container {
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    section.contact .container .header .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.contact .container .header .info {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    section.contact .container > div {
+        padding: 1rem;
+    }
+
+    section.contact .container > div .form {
+        padding: 2rem;
+    }
+
+    section.contact .container > div .form > div {
+        flex-direction: column;
+    }
+
+    section.contact .container > div .form input[type="text"],
+    section.contact .container > div .form textarea {
+        height: 3rem; /* Altura reducida */
+        padding: 0.5rem 1rem; /* Padding reducido */
+        font-size: 1rem; /* Tamaño de fuente reducido */
+    }
+
+    section.contact .container > div .form textarea {
+        height: 8rem; /* Altura reducida para textarea */
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 0.75rem;
+        font-size: 0.8rem;
+    }
+}
