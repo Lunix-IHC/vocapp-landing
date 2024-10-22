@@ -587,6 +587,109 @@ section.faq {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align:center;
+}
+
+section.faq .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 4rem;
+}
+
+section.faq .header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+section.faq .container .header .info {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #8492A6;
+    line-height: 2.625rem;
+    margin: 0;
+    
+}
+
+section.faq .container .header .title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #212121;
+    line-height: 4.5rem;
+    margin: 0;
+}
+
+section.faq .container .faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+section.faq .container .faq-container .faq-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+section.faq .container .faq-container .faq-card .question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF;
+    filter: drop-shadow(0rem 0.25rem 2rem #aaaaaa40);
+    border-radius: 0.75rem;
+    padding: 0.75rem 3rem;
+    height: 6.25rem;
+    cursor: pointer;
+    transition: background-color 0.5s linear;
+    text-align: left;
+}
+
+section.faq .container .faq-container .faq-card .question:hover {
+    background-color: #e2e2e2;
+}
+
+section.faq .container .faq-container .faq-card .question p {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 3.375rem;
+    margin: 0;
+}
+
+section.faq .container .faq-container .faq-card .question > div {
+    flex: 1;
+    text-align: end;
+}
+
+section.faq .container .faq-container .faq-card .question > div img {
+    width: 2.25rem;
+}
+
+section.faq .container .faq-container .faq-card .answer {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+    background-color: #FFF;
+    text-align: left;
+}
+
+section.faq .container .faq-container .faq-card.active .answer {
+    max-height: 31.25rem;
+    padding: 1rem;
+}
+
+section.faq .container .faq-container .faq-card .answer p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    color: #8492A6;
+    margin: 0;
 }
 
 section.contact {

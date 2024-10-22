@@ -513,6 +513,104 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    section.faq .container {
+        padding: 4rem;
+        gap: 3.5rem;
+    }
+
+    section.faq .container .header .title {
+        font-size: 2.75rem;
+        line-height: 4rem;
+    }
+
+    section.faq .container .header .info {
+        font-size: 1.6rem;
+        line-height: 2.25rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question > div img {
+        width: 2.25rem;
+    }
+
+    section.faq .container .faq-container .faq-card .answer p {
+        font-size: 1.6rem;
+        line-height: 2.25rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    section.faq .container {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    section.faq .container .header .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    section.faq .container .header .info {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question p {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question > div img {
+        width: 2rem;
+    }
+
+    section.faq .container .faq-container .faq-card .answer p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    section.faq .container {
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    section.faq .container .header .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    section.faq .container .header .info {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question {
+        padding: 0.75rem 1.5rem;
+        height: auto;
+    }
+
+    section.faq .container .faq-container .faq-card .question p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    section.faq .container .faq-container .faq-card .question > div img {
+        width: 1.5rem;
+    }
+
+    section.faq .container .faq-container .faq-card .answer p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
 @media (max-width: 768px) {
     section.contact .container {
         padding: 0;
