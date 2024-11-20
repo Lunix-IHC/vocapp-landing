@@ -100,9 +100,12 @@ header .navbar div:hover::after{
     width: 100%;
 }
 
-header .navbar span {
+header .navbar a {
     font-size: 1.25rem;
     font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 header .social {
